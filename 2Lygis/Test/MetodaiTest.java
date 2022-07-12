@@ -1,5 +1,4 @@
 import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import org.junit.jupiter.api.BeforeAll;
@@ -13,7 +12,7 @@ class MetodaiTest {
 
 	@Test
 	void test() {
-//		fail("Not yet implemented");
+
 	}
 	
 	@Test
@@ -32,7 +31,7 @@ class MetodaiTest {
 		Metodai metodai = new Metodai();
 		ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(25,45,65));
 		Double averageNumber = metodai.averageNumber(numbers);
-		assertEquals(45,00, averageNumber);
+		assertEquals(45.00, averageNumber);
 	}
 	
 	
